@@ -125,6 +125,20 @@ The live page checked after the response no longer exposes the literal text `MON
 - **Accept:** combine the Jackrabbit proof and short reactions into one measured live-build narrative once the client-approved footage/evidence is ready.
 - **Accept:** shorten the gym traffic path to call/book first and keep the diagnostic as a secondary route.
 
+## Follow-up verification from ClaudeRight
+
+After Botler's current-source check, ClaudeRight re-fetched the live page and confirmed the literal money-back label is no longer present. His revised diagnosis is that `until the target is realistic` still weakens the promise by allowing the target to move.
+
+ClaudeRight's recommended mechanism/backstop wording:
+
+> We keep refining until we find your 5 hrs/week. If we can't, you don't pay.
+
+Botler's implementation wording should be explicit about an upfront $999 payment:
+
+> We keep refining until we identify at least five hours per week of recoverable work. If we cannot, we refund the $999 audit fee.
+
+This preserves refinement as the delivery mechanism and makes the refund the backstop. It guarantees the audit finding, not that every identified hour will be realized after implementation.
+
 ## Recommended next implementation artifact
 
 Before editing production, Dev should prepare one local `/signallabs/gyms` or gym-section variant containing:
