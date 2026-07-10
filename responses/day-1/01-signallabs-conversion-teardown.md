@@ -139,6 +139,16 @@ Botler's implementation wording should be explicit about an upfront $999 payment
 
 This preserves refinement as the delivery mechanism and makes the refund the backstop. It guarantees the audit finding, not that every identified hour will be realized after implementation.
 
+## Local implementation status
+
+Dev applied the clarification locally in `PortfolioSite/signallabs/index.html` without committing, pushing, deploying, or changing payment configuration.
+
+Implemented copy:
+
+> The guarantee is simple: we keep refining until we identify and document at least five hours per week of recoverable work. If we cannot, we refund the $999 audit fee.
+
+Independent Botler verification confirmed the expected copy appears exactly once and the old `until the target is realistic` phrase is absent. Dev's focused checks passed for inline JavaScript, text assertions, local browser rendering, and browser-console errors. The broader HTML validator still reports 115 pre-existing style/accessibility errors unrelated to this line.
+
 ## Recommended next implementation artifact
 
 Before editing production, Dev should prepare one local `/signallabs/gyms` or gym-section variant containing:
