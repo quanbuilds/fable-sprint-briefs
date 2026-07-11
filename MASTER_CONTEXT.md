@@ -62,6 +62,23 @@ Observed live elements:
 
 The page uses a “money-back guarantee” visual label, while the detailed audit copy says SignalLabs will keep refining until the five-hour target is realistic. Fable should recommend one precise, defensible guarantee and eliminate ambiguity.
 
+## Signal Labs operating AI stack
+
+Recent source inspiration: Corey Ganim's AI-stack video uses the pattern `workbench -> workforce -> infrastructure -> communication layer -> second brain -> tool access -> CRM/sales automation`.
+
+Signal Labs should adapt the pattern to the stack Quan already has, not copy every vendor:
+
+- **Workbench:** Codex, Claude Code, Hermes tools, and local test/build loops for prototyping workflows.
+- **Workforce:** Hermes agents — Botler for orchestration, Cash for revenue/CRM, Dev for implementation, Jim for F10.0RD/content when relevant, plus scheduled/delegated jobs.
+- **Infrastructure:** Hermes profiles/gateways/cron jobs, OpenClaw lanes, launchctl, local queues. Do not add Orgo unless current infrastructure becomes the bottleneck.
+- **Communication layer:** Botler as the front door in Telegram plus agent-specific homes and dashboard packets. Do not move to Slack unless a client/team actually needs Slack-native delivery.
+- **Second brain:** Obsidian/workspace markdown for private operator memory; GitHub repos for client-safe/shareable context; dashboard packets for operator-facing content state.
+- **Tool access:** Native Hermes tools, GitHub CLI, Google Workspace tooling, browser/computer use, and future MCP/native integrations. Do not add Composio unless auth/tool sprawl becomes a real bottleneck.
+- **CRM/control plane:** PortfolioSite SignalLabs CRM/call-board artifacts and Fable sprint briefs first; evaluate GoHighLevel only when outbound volume exceeds the local control plane.
+- **Quality gate:** Agents can propose knowledge-base updates, but Quan/Botler approves before durable memory or public claims change.
+
+Business-plan framing: Signal Labs does not sell random AI tools. It installs the smallest useful version of this operator stack around one painful workflow first: workbench, specialized agents, source-backed memory, control dashboard, and human approval gates.
+
 ## Revenue objective
 
 Create booked conversations and paid gym pilots quickly without promising unsupported outcomes. Prefer assets that Quan can use on calls today:
